@@ -9,6 +9,15 @@
   <xacro:property name="wheeldiam" value=".07" />
   <xacro:property name="pi" value="3.1415" />
 
+  <link name="eye">
+  </link>
+
+  <joint name="eye_link" type="fixed">
+  <child link="eye"/>
+  <parent link="box"/>
+  <origin xyz="0 0 0" rpy="${pi} ${pi/2} ${pi}"/>
+  </joint>
+
   <material name="blue">
     <color rgba="0 0 .8 1"/>
   </material>
@@ -34,7 +43,7 @@
   <joint name="base_footprint_joint" type="fixed">
   <child link="base_link"/>
   <parent link="base_footprint"/>
-  <origin xyz="0 0 -${baselen+wheeldiam}" rpy="0 0 0"/>
+  <origin xyz="0 0 ${baselen+wheeldiam}" rpy="0 0 0"/>
   </joint>
 
   <link name="base_link">
