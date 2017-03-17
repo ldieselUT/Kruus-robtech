@@ -1,0 +1,2 @@
+beginner_tutorials:my_r2d2
+-DCATKIN_DEVEL_PREFIX=/home/tudeng/Kruus-robtech/devel -DCMAKE_INSTALL_PREFIX=/home/tudeng/Kruus-robtech/install -G Unix Makefiles
