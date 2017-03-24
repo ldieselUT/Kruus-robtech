@@ -7,9 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/tudeng/Kruus-robtech/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/opt/ros/indigo/lib/x86_64-linux-gnu:/opt/ros/indigo/lib"
-export PKG_CONFIG_PATH="/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
+export LD_LIBRARY_PATH="/opt/ros/indigo/lib/x86_64-linux-gnu:/home/tudeng/Kruus-robtech/devel/lib:/opt/ros/indigo/lib"
+export PKG_CONFIG_PATH="/opt/ros/indigo/lib/x86_64-linux-gnu/pkgconfig:/home/tudeng/Kruus-robtech/devel/lib/pkgconfig:/opt/ros/indigo/lib/pkgconfig"
 export PWD="/home/tudeng/Kruus-robtech/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/tudeng/Kruus-robtech/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/tudeng/Kruus-robtech/src:$ROS_PACKAGE_PATH"

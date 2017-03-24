@@ -1,0 +1,8 @@
+prefix=/home/tudeng/Kruus-robtech/install
+
+Name: mouse_reader
+Description: Description of mouse_reader
+Version: 0.0.0
+Cflags: -I/home/tudeng/Kruus-robtech/install/include
+Libs: -L/home/tudeng/Kruus-robtech/install/lib 
+Requires: 
