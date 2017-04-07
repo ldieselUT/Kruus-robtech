@@ -117,10 +117,10 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/tudeng/Kruus-robtech/build/gtest/cmake_install.cmake")
-  INCLUDE("/home/tudeng/Kruus-robtech/build/keyboard_reader/cmake_install.cmake")
   INCLUDE("/home/tudeng/Kruus-robtech/build/mouse_reader/cmake_install.cmake")
   INCLUDE("/home/tudeng/Kruus-robtech/build/my_r2d2/cmake_install.cmake")
   INCLUDE("/home/tudeng/Kruus-robtech/build/beginner_tutorials/cmake_install.cmake")
+  INCLUDE("/home/tudeng/Kruus-robtech/build/my_turtle/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

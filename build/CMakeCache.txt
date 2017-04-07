@@ -300,15 +300,6 @@ gtest_force_shared_crt:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
-//Value Computed by CMake
-keyboard_reader_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/keyboard_reader
-
-//Dependencies for the target
-keyboard_reader_LIB_DEPENDS:STATIC=general;/opt/ros/indigo/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/indigo/lib/librosconsole.so;general;/opt/ros/indigo/lib/librosconsole_log4cxx.so;general;/opt/ros/indigo/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/indigo/lib/libxmlrpcpp.so;general;/opt/ros/indigo/lib/libroscpp_serialization.so;general;/opt/ros/indigo/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/opt/ros/indigo/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;
-
-//Value Computed by CMake
-keyboard_reader_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/keyboard_reader
-
 //Path to a library.
 lib:FILEPATH=/opt/ros/indigo/lib/libxmlrpcpp.so
 
@@ -332,6 +323,12 @@ my_r2d2_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/my_r2d2
 
 //Value Computed by CMake
 my_r2d2_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/my_r2d2
+
+//Value Computed by CMake
+my_turtle_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/my_turtle
+
+//Value Computed by CMake
+my_turtle_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/my_turtle
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/indigo/share/rosconsole/cmake

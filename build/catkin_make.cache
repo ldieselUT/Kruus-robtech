@@ -1,2 +1,2 @@
-beginner_tutorials:keyboard_reader:mouse_reader:my_r2d2
+beginner_tutorials:mouse_reader:my_r2d2:my_turtle
 -DCATKIN_DEVEL_PREFIX=/home/tudeng/Kruus-robtech/devel -DCMAKE_INSTALL_PREFIX=/home/tudeng/Kruus-robtech/install -G Unix Makefiles

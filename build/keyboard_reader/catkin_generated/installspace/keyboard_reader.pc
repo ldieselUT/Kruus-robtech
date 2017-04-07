@@ -1,8 +1,0 @@
-prefix=/home/tudeng/Kruus-robtech/install
-
-Name: keyboard_reader
-Description: Description of keyboard_reader
-Version: 0.0.0
-Cflags: -I/home/tudeng/Kruus-robtech/install/include
-Libs: -L/home/tudeng/Kruus-robtech/install/lib 
-Requires: 
