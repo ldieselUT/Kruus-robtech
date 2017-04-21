@@ -1,2 +1,2 @@
-beginner_tutorials:mouse_reader:my_r2d2:my_turtle
+beginner_tutorials:motoman/motoman:motoman/motoman_driver:motoman/motoman_mh5_support:motoman/motoman_msgs:motoman/motoman_sda10f_moveit_config:motoman/motoman_sda10f_support:motoman/motoman_sia10d_support:motoman/motoman_sia10f_support:motoman/motoman_sia20d_moveit_config:motoman/motoman_sia20d_support:motoman/motoman_sia5d_support:motoman_sia5d_moveit_config:mouse_reader:moveit_tutorials:my_r2d2:my_turtle:planning_tutorial
 -DCATKIN_DEVEL_PREFIX=/home/tudeng/Kruus-robtech/devel -DCMAKE_INSTALL_PREFIX=/home/tudeng/Kruus-robtech/install -G Unix Makefiles

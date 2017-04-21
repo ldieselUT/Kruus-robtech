@@ -132,9 +132,7 @@ if(gencpp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/mo
     DESTINATION ${gencpp_INSTALL_DIR}
   )
 endif()
-if(TARGET std_msgs_generate_messages_cpp)
-  add_dependencies(mouse_reader_generate_messages_cpp std_msgs_generate_messages_cpp)
-endif()
+add_dependencies(mouse_reader_generate_messages_cpp std_msgs_generate_messages_cpp)
 
 if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/mouse_reader)
   # install generated code
@@ -143,9 +141,7 @@ if(genlisp_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/
     DESTINATION ${genlisp_INSTALL_DIR}
   )
 endif()
-if(TARGET std_msgs_generate_messages_lisp)
-  add_dependencies(mouse_reader_generate_messages_lisp std_msgs_generate_messages_lisp)
-endif()
+add_dependencies(mouse_reader_generate_messages_lisp std_msgs_generate_messages_lisp)
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mouse_reader)
   install(CODE "execute_process(COMMAND \"/usr/bin/python\" -m compileall \"${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mouse_reader\")")
@@ -155,6 +151,4 @@ if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/mous
     DESTINATION ${genpy_INSTALL_DIR}
   )
 endif()
-if(TARGET std_msgs_generate_messages_py)
-  add_dependencies(mouse_reader_generate_messages_py std_msgs_generate_messages_py)
-endif()
+add_dependencies(mouse_reader_generate_messages_py std_msgs_generate_messages_py)
