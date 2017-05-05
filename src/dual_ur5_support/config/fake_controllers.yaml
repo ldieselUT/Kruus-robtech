@@ -1,0 +1,33 @@
+controller_list:
+  - name: fake_single_controller
+    joints:
+      - left_arm_joint_s
+      - left_arm_joint_l
+      - left_arm_joint_e
+      - left_arm_joint_u
+      - left_arm_joint_r
+      - left_arm_joint_b
+      - left_arm_joint_t
+  - name: fake_single_new_controller
+    joints:
+      - ur5_shoulder_pan_joint
+      - ur5_shoulder_lift_joint
+      - ur5_elbow_joint
+      - ur5_wrist_1_joint
+      - ur5_wrist_2_joint
+      - ur5_wrist_3_joint
+  - name: fake_dual_controller
+    joints:
+      - left_arm_joint_s
+      - left_arm_joint_l
+      - left_arm_joint_e
+      - left_arm_joint_u
+      - left_arm_joint_r
+      - left_arm_joint_b
+      - left_arm_joint_t
+      - ur5_shoulder_pan_joint
+      - ur5_shoulder_lift_joint
+      - ur5_elbow_joint
+      - ur5_wrist_1_joint
+      - ur5_wrist_2_joint
+      - ur5_wrist_3_joint

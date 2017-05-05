@@ -323,6 +323,27 @@ control_msgs_DIR:PATH=/opt/ros/indigo/share/control_msgs/cmake
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
 
+//Value Computed by CMake
+dual_manipulator_support_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/dual_manipulator_support
+
+//Value Computed by CMake
+dual_manipulator_support_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/dual_manipulator_support
+
+//Value Computed by CMake
+dual_sia5_moveit_config_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/dual_sia5_moveit_config
+
+//Value Computed by CMake
+dual_sia5_moveit_config_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/dual_sia5_moveit_config
+
+//Value Computed by CMake
+dual_ur5_support_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/dual_ur5_support
+
+//Value Computed by CMake
+dual_ur5_support_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/dual_ur5_support
+
+//The directory containing a CMake configuration file for dynamic_reconfigure.
+dynamic_reconfigure_DIR:PATH=/opt/ros/indigo/share/dynamic_reconfigure/cmake
+
 //The directory containing a CMake configuration file for eigen_conversions.
 eigen_conversions_DIR:PATH=/opt/ros/indigo/share/eigen_conversions/cmake
 
@@ -383,6 +404,9 @@ industrial_robot_client_DIR:PATH=/opt/ros/indigo/share/industrial_robot_client/c
 
 //The directory containing a CMake configuration file for industrial_utils.
 industrial_utils_DIR:PATH=/opt/ros/indigo/share/industrial_utils/cmake
+
+//The directory containing a CMake configuration file for kdl_conversions.
+kdl_conversions_DIR:PATH=/opt/ros/indigo/share/kdl_conversions/cmake
 
 //The directory containing a CMake configuration file for kdl_parser.
 kdl_parser_DIR:PATH=/opt/ros/indigo/share/kdl_parser/cmake
@@ -498,6 +522,9 @@ mouse_reader_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/mouse_reader
 //The directory containing a CMake configuration file for moveit_core.
 moveit_core_DIR:PATH=/opt/ros/indigo/share/moveit_core/cmake
 
+//The directory containing a CMake configuration file for moveit_kinematics.
+moveit_kinematics_DIR:PATH=/opt/ros/indigo/share/moveit_kinematics/cmake
+
 //The directory containing a CMake configuration file for moveit_msgs.
 moveit_msgs_DIR:PATH=/opt/ros/indigo/share/moveit_msgs/cmake
 
@@ -573,6 +600,9 @@ roscpp_serialization_DIR:PATH=/opt/ros/indigo/share/roscpp_serialization/cmake
 //The directory containing a CMake configuration file for roscpp_traits.
 roscpp_traits_DIR:PATH=/opt/ros/indigo/share/roscpp_traits/cmake
 
+//The directory containing a CMake configuration file for rosgraph.
+rosgraph_DIR:PATH=/opt/ros/indigo/share/rosgraph/cmake
+
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/indigo/share/rosgraph_msgs/cmake
 
@@ -609,8 +639,104 @@ std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
 //The directory containing a CMake configuration file for std_srvs.
 std_srvs_DIR:PATH=/opt/ros/indigo/share/std_srvs/cmake
 
+//The directory containing a CMake configuration file for tf2.
+tf2_DIR:PATH=/opt/ros/indigo/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/opt/ros/indigo/share/tf2_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_py.
+tf2_py_DIR:PATH=/opt/ros/indigo/share/tf2_py/cmake
+
+//The directory containing a CMake configuration file for tf2_ros.
+tf2_ros_DIR:PATH=/opt/ros/indigo/share/tf2_ros/cmake
+
+//The directory containing a CMake configuration file for tf.
+tf_DIR:PATH=/opt/ros/indigo/share/tf/cmake
+
+//The directory containing a CMake configuration file for tf_conversions.
+tf_conversions_DIR:PATH=/opt/ros/indigo/share/tf_conversions/cmake
+
 //The directory containing a CMake configuration file for trajectory_msgs.
 trajectory_msgs_DIR:PATH=/opt/ros/indigo/share/trajectory_msgs/cmake
+
+//Value Computed by CMake
+universal_robot_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/universal_robot/universal_robot
+
+//Value Computed by CMake
+universal_robot_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/universal_robot/universal_robot
+
+//Dependencies for target
+ur10_kin_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+ur10_moveit_config_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/universal_robot/ur10_moveit_config
+
+//Value Computed by CMake
+ur10_moveit_config_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/universal_robot/ur10_moveit_config
+
+//Dependencies for the target
+ur10_moveit_plugin_LIB_DEPENDS:STATIC=general;/opt/ros/indigo/lib/libmoveit_rdf_loader.so;general;/opt/ros/indigo/lib/libmoveit_kinematics_plugin_loader.so;general;/opt/ros/indigo/lib/libmoveit_robot_model_loader.so;general;/opt/ros/indigo/lib/libmoveit_constraint_sampler_manager_loader.so;general;/opt/ros/indigo/lib/libmoveit_planning_pipeline.so;general;/opt/ros/indigo/lib/libmoveit_trajectory_execution_manager.so;general;/opt/ros/indigo/lib/libmoveit_plan_execution.so;general;/opt/ros/indigo/lib/libmoveit_planning_scene_monitor.so;general;/opt/ros/indigo/lib/libmoveit_collision_plugin_loader.so;general;/opt/ros/indigo/lib/libmoveit_lazy_free_space_updater.so;general;/opt/ros/indigo/lib/libmoveit_point_containment_filter.so;general;/opt/ros/indigo/lib/libmoveit_occupancy_map_monitor.so;general;/opt/ros/indigo/lib/libmoveit_pointcloud_octomap_updater_core.so;general;/opt/ros/indigo/lib/libmoveit_semantic_world.so;general;/opt/ros/indigo/lib/libmoveit_exceptions.so;general;/opt/ros/indigo/lib/libmoveit_background_processing.so;general;/opt/ros/indigo/lib/libmoveit_kinematics_base.so;general;/opt/ros/indigo/lib/libmoveit_robot_model.so;general;/opt/ros/indigo/lib/libmoveit_transforms.so;general;/opt/ros/indigo/lib/libmoveit_robot_state.so;general;/opt/ros/indigo/lib/libmoveit_robot_trajectory.so;general;/opt/ros/indigo/lib/libmoveit_planning_interface.so;general;/opt/ros/indigo/lib/libmoveit_collision_detection.so;general;/opt/ros/indigo/lib/libmoveit_collision_detection_fcl.so;general;/opt/ros/indigo/lib/libmoveit_kinematic_constraints.so;general;/opt/ros/indigo/lib/libmoveit_planning_scene.so;general;/opt/ros/indigo/lib/libmoveit_constraint_samplers.so;general;/opt/ros/indigo/lib/libmoveit_planning_request_adapter.so;general;/opt/ros/indigo/lib/libmoveit_profiler.so;general;/opt/ros/indigo/lib/libmoveit_trajectory_processing.so;general;/opt/ros/indigo/lib/libmoveit_distance_field.so;general;/opt/ros/indigo/lib/libmoveit_kinematics_metrics.so;general;/opt/ros/indigo/lib/libmoveit_dynamics_solver.so;general;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;general;/opt/ros/indigo/lib/libeigen_conversions.so;general;/opt/ros/indigo/lib/libgeometric_shapes.so;general;/opt/ros/indigo/lib/liboctomap.so;general;/opt/ros/indigo/lib/liboctomath.so;general;/opt/ros/indigo/lib/libkdl_parser.so;general;/opt/ros/indigo/lib/liborocos-kdl.so;general;/opt/ros/indigo/lib/liburdf.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;general;/opt/ros/indigo/lib/librosconsole_bridge.so;general;/opt/ros/indigo/lib/librandom_numbers.so;general;/opt/ros/indigo/lib/libsrdfdom.so;general;/opt/ros/indigo/lib/libimage_transport.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/indigo/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/indigo/lib/libroslib.so;general;/opt/ros/indigo/lib/libtf_conversions.so;general;/opt/ros/indigo/lib/libkdl_conversions.so;general;/opt/ros/indigo/lib/liborocos-kdl.so.1.3.0;general;/opt/ros/indigo/lib/libtf.so;general;/opt/ros/indigo/lib/libtf2_ros.so;general;/opt/ros/indigo/lib/libactionlib.so;general;/opt/ros/indigo/lib/libmessage_filters.so;general;/opt/ros/indigo/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/indigo/lib/libxmlrpcpp.so;general;/opt/ros/indigo/lib/libtf2.so;general;/opt/ros/indigo/lib/libroscpp_serialization.so;general;/opt/ros/indigo/lib/librosconsole.so;general;/opt/ros/indigo/lib/librosconsole_log4cxx.so;general;/opt/ros/indigo/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/indigo/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/opt/ros/indigo/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;ur10_kin;
+
+//Dependencies for target
+ur3_kin_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+ur3_moveit_config_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/universal_robot/ur3_moveit_config
+
+//Value Computed by CMake
+ur3_moveit_config_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/universal_robot/ur3_moveit_config
+
+//Dependencies for the target
+ur3_moveit_plugin_LIB_DEPENDS:STATIC=general;/opt/ros/indigo/lib/libmoveit_rdf_loader.so;general;/opt/ros/indigo/lib/libmoveit_kinematics_plugin_loader.so;general;/opt/ros/indigo/lib/libmoveit_robot_model_loader.so;general;/opt/ros/indigo/lib/libmoveit_constraint_sampler_manager_loader.so;general;/opt/ros/indigo/lib/libmoveit_planning_pipeline.so;general;/opt/ros/indigo/lib/libmoveit_trajectory_execution_manager.so;general;/opt/ros/indigo/lib/libmoveit_plan_execution.so;general;/opt/ros/indigo/lib/libmoveit_planning_scene_monitor.so;general;/opt/ros/indigo/lib/libmoveit_collision_plugin_loader.so;general;/opt/ros/indigo/lib/libmoveit_lazy_free_space_updater.so;general;/opt/ros/indigo/lib/libmoveit_point_containment_filter.so;general;/opt/ros/indigo/lib/libmoveit_occupancy_map_monitor.so;general;/opt/ros/indigo/lib/libmoveit_pointcloud_octomap_updater_core.so;general;/opt/ros/indigo/lib/libmoveit_semantic_world.so;general;/opt/ros/indigo/lib/libmoveit_exceptions.so;general;/opt/ros/indigo/lib/libmoveit_background_processing.so;general;/opt/ros/indigo/lib/libmoveit_kinematics_base.so;general;/opt/ros/indigo/lib/libmoveit_robot_model.so;general;/opt/ros/indigo/lib/libmoveit_transforms.so;general;/opt/ros/indigo/lib/libmoveit_robot_state.so;general;/opt/ros/indigo/lib/libmoveit_robot_trajectory.so;general;/opt/ros/indigo/lib/libmoveit_planning_interface.so;general;/opt/ros/indigo/lib/libmoveit_collision_detection.so;general;/opt/ros/indigo/lib/libmoveit_collision_detection_fcl.so;general;/opt/ros/indigo/lib/libmoveit_kinematic_constraints.so;general;/opt/ros/indigo/lib/libmoveit_planning_scene.so;general;/opt/ros/indigo/lib/libmoveit_constraint_samplers.so;general;/opt/ros/indigo/lib/libmoveit_planning_request_adapter.so;general;/opt/ros/indigo/lib/libmoveit_profiler.so;general;/opt/ros/indigo/lib/libmoveit_trajectory_processing.so;general;/opt/ros/indigo/lib/libmoveit_distance_field.so;general;/opt/ros/indigo/lib/libmoveit_kinematics_metrics.so;general;/opt/ros/indigo/lib/libmoveit_dynamics_solver.so;general;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;general;/opt/ros/indigo/lib/libeigen_conversions.so;general;/opt/ros/indigo/lib/libgeometric_shapes.so;general;/opt/ros/indigo/lib/liboctomap.so;general;/opt/ros/indigo/lib/liboctomath.so;general;/opt/ros/indigo/lib/libkdl_parser.so;general;/opt/ros/indigo/lib/liborocos-kdl.so;general;/opt/ros/indigo/lib/liburdf.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;general;/opt/ros/indigo/lib/librosconsole_bridge.so;general;/opt/ros/indigo/lib/librandom_numbers.so;general;/opt/ros/indigo/lib/libsrdfdom.so;general;/opt/ros/indigo/lib/libimage_transport.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/indigo/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/indigo/lib/libroslib.so;general;/opt/ros/indigo/lib/libtf_conversions.so;general;/opt/ros/indigo/lib/libkdl_conversions.so;general;/opt/ros/indigo/lib/liborocos-kdl.so.1.3.0;general;/opt/ros/indigo/lib/libtf.so;general;/opt/ros/indigo/lib/libtf2_ros.so;general;/opt/ros/indigo/lib/libactionlib.so;general;/opt/ros/indigo/lib/libmessage_filters.so;general;/opt/ros/indigo/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/indigo/lib/libxmlrpcpp.so;general;/opt/ros/indigo/lib/libtf2.so;general;/opt/ros/indigo/lib/libroscpp_serialization.so;general;/opt/ros/indigo/lib/librosconsole.so;general;/opt/ros/indigo/lib/librosconsole_log4cxx.so;general;/opt/ros/indigo/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/indigo/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/opt/ros/indigo/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;ur3_kin;
+
+//Dependencies for target
+ur5_kin_LIB_DEPENDS:STATIC=
+
+//Value Computed by CMake
+ur5_moveit_config_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/universal_robot/ur5_moveit_config
+
+//Value Computed by CMake
+ur5_moveit_config_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/universal_robot/ur5_moveit_config
+
+//Dependencies for the target
+ur5_moveit_plugin_LIB_DEPENDS:STATIC=general;/opt/ros/indigo/lib/libmoveit_rdf_loader.so;general;/opt/ros/indigo/lib/libmoveit_kinematics_plugin_loader.so;general;/opt/ros/indigo/lib/libmoveit_robot_model_loader.so;general;/opt/ros/indigo/lib/libmoveit_constraint_sampler_manager_loader.so;general;/opt/ros/indigo/lib/libmoveit_planning_pipeline.so;general;/opt/ros/indigo/lib/libmoveit_trajectory_execution_manager.so;general;/opt/ros/indigo/lib/libmoveit_plan_execution.so;general;/opt/ros/indigo/lib/libmoveit_planning_scene_monitor.so;general;/opt/ros/indigo/lib/libmoveit_collision_plugin_loader.so;general;/opt/ros/indigo/lib/libmoveit_lazy_free_space_updater.so;general;/opt/ros/indigo/lib/libmoveit_point_containment_filter.so;general;/opt/ros/indigo/lib/libmoveit_occupancy_map_monitor.so;general;/opt/ros/indigo/lib/libmoveit_pointcloud_octomap_updater_core.so;general;/opt/ros/indigo/lib/libmoveit_semantic_world.so;general;/opt/ros/indigo/lib/libmoveit_exceptions.so;general;/opt/ros/indigo/lib/libmoveit_background_processing.so;general;/opt/ros/indigo/lib/libmoveit_kinematics_base.so;general;/opt/ros/indigo/lib/libmoveit_robot_model.so;general;/opt/ros/indigo/lib/libmoveit_transforms.so;general;/opt/ros/indigo/lib/libmoveit_robot_state.so;general;/opt/ros/indigo/lib/libmoveit_robot_trajectory.so;general;/opt/ros/indigo/lib/libmoveit_planning_interface.so;general;/opt/ros/indigo/lib/libmoveit_collision_detection.so;general;/opt/ros/indigo/lib/libmoveit_collision_detection_fcl.so;general;/opt/ros/indigo/lib/libmoveit_kinematic_constraints.so;general;/opt/ros/indigo/lib/libmoveit_planning_scene.so;general;/opt/ros/indigo/lib/libmoveit_constraint_samplers.so;general;/opt/ros/indigo/lib/libmoveit_planning_request_adapter.so;general;/opt/ros/indigo/lib/libmoveit_profiler.so;general;/opt/ros/indigo/lib/libmoveit_trajectory_processing.so;general;/opt/ros/indigo/lib/libmoveit_distance_field.so;general;/opt/ros/indigo/lib/libmoveit_kinematics_metrics.so;general;/opt/ros/indigo/lib/libmoveit_dynamics_solver.so;general;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;general;/opt/ros/indigo/lib/libeigen_conversions.so;general;/opt/ros/indigo/lib/libgeometric_shapes.so;general;/opt/ros/indigo/lib/liboctomap.so;general;/opt/ros/indigo/lib/liboctomath.so;general;/opt/ros/indigo/lib/libkdl_parser.so;general;/opt/ros/indigo/lib/liborocos-kdl.so;general;/opt/ros/indigo/lib/liburdf.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_model.so;general;/usr/lib/x86_64-linux-gnu/liburdfdom_world.so;general;/opt/ros/indigo/lib/librosconsole_bridge.so;general;/opt/ros/indigo/lib/librandom_numbers.so;general;/opt/ros/indigo/lib/libsrdfdom.so;general;/opt/ros/indigo/lib/libimage_transport.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/indigo/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/indigo/lib/libroslib.so;general;/opt/ros/indigo/lib/libtf_conversions.so;general;/opt/ros/indigo/lib/libkdl_conversions.so;general;/opt/ros/indigo/lib/liborocos-kdl.so.1.3.0;general;/opt/ros/indigo/lib/libtf.so;general;/opt/ros/indigo/lib/libtf2_ros.so;general;/opt/ros/indigo/lib/libactionlib.so;general;/opt/ros/indigo/lib/libmessage_filters.so;general;/opt/ros/indigo/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/indigo/lib/libxmlrpcpp.so;general;/opt/ros/indigo/lib/libtf2.so;general;/opt/ros/indigo/lib/libroscpp_serialization.so;general;/opt/ros/indigo/lib/librosconsole.so;general;/opt/ros/indigo/lib/librosconsole_log4cxx.so;general;/opt/ros/indigo/lib/librosconsole_backend_interface.so;general;/usr/lib/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/indigo/lib/librostime.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/opt/ros/indigo/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;ur5_kin;
+
+//Value Computed by CMake
+ur_bringup_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/universal_robot/ur_bringup
+
+//Value Computed by CMake
+ur_bringup_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/universal_robot/ur_bringup
+
+//Value Computed by CMake
+ur_description_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/universal_robot/ur_description
+
+//Value Computed by CMake
+ur_description_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/universal_robot/ur_description
+
+//Value Computed by CMake
+ur_driver_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/universal_robot/ur_driver
+
+//Value Computed by CMake
+ur_driver_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/universal_robot/ur_driver
+
+//Value Computed by CMake
+ur_gazebo_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/universal_robot/ur_gazebo
+
+//Value Computed by CMake
+ur_gazebo_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/universal_robot/ur_gazebo
+
+//Value Computed by CMake
+ur_kinematics_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/universal_robot/ur_kinematics
+
+//Value Computed by CMake
+ur_kinematics_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/universal_robot/ur_kinematics
+
+//Value Computed by CMake
+ur_msgs_BINARY_DIR:STATIC=/home/tudeng/Kruus-robtech/build/universal_robot/ur_msgs
+
+//Value Computed by CMake
+ur_msgs_SOURCE_DIR:STATIC=/home/tudeng/Kruus-robtech/src/universal_robot/ur_msgs
 
 //The directory containing a CMake configuration file for urdf.
 urdf_DIR:PATH=/opt/ros/indigo/share/urdf/cmake
@@ -751,7 +877,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=25
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=38
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
